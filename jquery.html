@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JQuery Practice</title>
+    <link rel="stylesheet" href="./CSS/jquery.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <style>
+      body header {
+        font-family: "Sofia", sans-serif;
+      }
+
+      .special{
+        font:bold;
+        color:gray;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>To be continued...</h1>
+    </header>
+
+    <figrue class="container">
+        <ul class="slides">
+          <li class="slide"><img src="pics/black horse1.jpg" alt=""></li>
+          <li class="slide"><img src="pics/black horse2.png" alt=""></li>
+          <li class="slide"><img src="pics/black horse3.png" alt=""></li>
+          <li class="slide"><img src="pics/black horse4.png" alt=""></li>
+          <li class="slide"><img src="pics/black horse1.jpg" alt=""></li>
+        </ul>
+    </figrue> 
+
+    <section class="feature-box">
+      <div class="first">
+        <ul id="fruits">
+          <li>Apple</li>
+          <li>Banana</li>
+          <li class="orange">Orange</li>
+          <li>Strawberry</li>
+          <!-- <li>Fruits above are all my favorite.</li> -->
+        </ul>
+
+        <p>
+        <h4>Add a ftuit here!</h4>
+        Fruit Name: <input type="text" id="fruit-add">
+        <button id="add">Add!</button>
+        </p>
+      </div>
+
+      <div class="second">
+        <ul>
+          <li>Order Collie</li>
+          <li>Golden Retriever</li>
+          <li>British ShortHair</li>
+          <li>Pets above are all my good buddies.</li>
+        </ul>
+      </div>
+
+
+      <!-- buttons for JQuery -->
+      <div class="buttons">
+        <button class="buttonItem" data-panel="panel1">Button1</button>
+        <button class="buttonItem" data-panel="panel2">Button2</button>
+        <button class="buttonItem" data-panel="panel3">Button3</button>
+      </div>
+  
+       <!-- item blocks for JQuery -->
+    <div class="third">
+        <div class="panel1">
+            <div class="panelHead">
+                #panel1
+            </div>
+
+            <div class="panelBody">
+                content
+            </div>
+        </div>
+        <div class="panel2">
+            <div class="panelHead">
+                #panel2
+            </div>
+
+            <div class="panelBody">
+                content
+            </div>
+        </div>
+        <div class="panel3">   
+            <div class="panelHead"> 
+                #panel3
+            </div>
+
+            <div class="panelBody">
+                content
+            </div>
+        </div>
+    </div>
+
+     <!-- tab-panel -->
+     <div id="tab-panel">
+      <ul class="tabs">
+        <li class="tab active" data-panel="panel1">Tab1</li>
+        <li class="tab" data-panel="panel2">Tab2</li>
+        <li class="tab" data-panel="panel3">Tab3</li>
+      </ul>
+
+      <div id='panel1' class="panel active">
+        <b>This is the first panel!</b><br>
+        Monday <br>
+        Tuesday <br>
+        Wednesday <br>
+        Thursday <br>
+        Friday <br>
+      </div>
+      
+
+      <div id="panel2" class="panel">
+        <b>This is the second panel!</b><br>
+        Monday <br>
+        Tuesday <br>
+        Wednesday <br>
+        Thursday <br>
+      </div>
+
+
+      <div id="panel3" class="panel">
+        <b>This is the third panel!</b><br>
+        Monday <br>
+        Tuesday <br>
+        Wednesday <br>
+      </div>
+    </div>
+
+    </section>
+
+    
+
+    <p id="slogan1">Be fearless, stick to the end and never give up.</p>
+
+    <footer id="slogan2">Any limitation starts from within.</footer>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./JS/main_jquery.js"></script>
+  </html>
+

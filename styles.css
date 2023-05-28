@@ -1,0 +1,120 @@
+body{
+    background: rgb(58,58,58);
+    font-size: 20px;
+    color:white;
+    padding:0px;
+    margin:0px;
+}
+
+/* HEADER */
+header{
+    background: black;
+    font-family: Helvetica-neue;
+    padding:20px;
+    height:230px;
+    font-size:25px;
+    text-align:center;
+    background-image: url("pics/Vango.jpeg");
+    background-size:100%;
+    background-position:center;
+}
+
+
+header a{
+    margin-top: 60px;
+    text-decoration: none;
+    color:green;
+}
+
+header .mobile{
+    display:none;
+}
+
+header .logo a{
+    height:80px;
+    width:150px;
+    background-size: 160px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    text-indent: -9999999999px;
+    position:relative;
+    top: -30px;
+    background-image: url("pics/Stars1.webp");
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav ul{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+}
+
+nav li{
+    display:inline-block;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+/* RESPOSIVE RULES */
+
+@media screen and (max-width: 667px){
+    header .mobile{
+        display:inline-block;
+    }
+
+    header .desktop{
+        display:none;
+    }
+
+    header {
+        height: 200px;
+    }
+
+}
+
+/* FEATURES */
+
+#Master li{
+    padding:1.5rem 1rem;
+    /* margin:1.5rem 1rem; */
+
+}
+
+
+.feature-box{
+    background:rgb(98, 145, 192);
+    color:gray;
+    padding:20px;
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.feature-box figure{
+    width:350px;
+    margin:auto;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.feature-box figure img{
+    border-radius:50%;
+    width:350px;
+    border:1px solid white;
+    box-shadow: white 0px 0px 10px;
+}
+
+
+footer{
+    background: rgb(86, 184, 143);
+    font-size:20px;
+    text-align: center;
+    padding:20px 20px;
+
+   }
+
+
